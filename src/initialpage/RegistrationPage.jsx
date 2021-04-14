@@ -35,7 +35,7 @@ class Registrationpage extends Component {
             
             <div className="main-wrapper">
               <div className="row">
-                <div className="col-md-5" style={{marginTop:'90px'}}>
+                <div className="col-md-5" style={{marginTop:'31px'}}>
                       <div className="account-box">
                         <div className="account-wrapper">
                           <div className="account-back">
@@ -81,14 +81,14 @@ class Registrationpage extends Component {
                           {/* /Account Form */}
                         </div>
                       </div>
-                      <div className="" style={{marginTop:'81.12px',textAlign:'center'}}>
-                      <a href='https://www.facebook.com'><img src={Facebook}/></a>
-                  <a href="https://www.instagram.com"><img src={Instagram} style={{marginLeft:'5%'}}/></a>
-                  <a href="https://www.twitter.com"><img src={Twitter} style={{marginLeft:'5%'}}/></a>
+                      <div className="" style={{marginTop:'31.12px',textAlign:'center'}}>
+                        <a href='https://www.facebook.com'><img src={Facebook}/></a>
+                        <a href="https://www.instagram.com"><img src={Instagram} style={{marginLeft:'5%'}}/></a>
+                        <a href="https://www.twitter.com"><img src={Twitter} style={{marginLeft:'5%'}}/></a>
                       </div>
                 </div>
                 <div className="col-md-7">
-                  <img src={StudentBack} style={{width:'100%'}} />
+                  <img src={StudentBack} style={{width:'100%', height:'100%'}} />
                 </div>
               </div>
               

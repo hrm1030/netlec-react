@@ -70,8 +70,8 @@ class JobsList extends Component
           {/* Page Wrapper */}
           <div className="page-wrapper job-wrapper">
             {/* Page Content */}
-            <div className="content" style={{backgroundImage:'../../assets/img/home-content.svg', paddingTop:"100px"}}>
-                <div className="row">
+            <div className="content" style={{ paddingTop:"100px"}}>
+                <div className="row" style={{backgroundImage:`url(${homecontent})`}}>
                     <div className="col-md-3">
                     </div>
                     <div className="col-md-2" style={{paddingTop:"175px"}}>

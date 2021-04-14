@@ -81,7 +81,7 @@ class Loginpage extends Component {
                 </div>
               </div>
               <div className="col-md-7">
-                <img src={SignBack} style={{width:'100%'}}/>
+                <img src={SignBack} style={{width:'100%', height:'100%'}}/>
               </div>
             </div>
             
