@@ -13,7 +13,6 @@ export {default as Instagram} from 'Assets/img/icon-instagram.svg';
 export {default as SignBack} from 'Assets/img/back.png';
 export {default as StudentBack} from 'Assets/img/StudentBack.png';
 export {default as TutorBack} from 'Assets/img/TutorBack.png';
-export {default as HomeBack} from 'Assets/img/home-content.svg';
 export {default as IconStudent} from 'Assets/img/icon-student.svg';
 export {default as IconTutor} from 'Assets/img/icon-tutor.svg';
 export {default as IconPaperPlane} from 'Assets/img/icon-paper-plane.svg';
@@ -30,6 +29,7 @@ export {default as Thu} from 'Assets/img/thu.png';
 export {default as Fri} from 'Assets/img/fri.png';
 export {default as Sat} from 'Assets/img/sat.png';
 export {default as Video} from 'Assets/img/video.png';
+export {default as homecontent} from 'Assets/img/home-content.svg';
 
 
 

@@ -1,7 +1,7 @@
 import { Button } from "bootstrap";
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import {headerlogo,IconPaperPlane, HomeBack, IconStudent, IconTutor, PlayStore, AppStore} from '../../Entryfile/imagepath.jsx'
+import {headerlogo,IconPaperPlane, IconStudent, IconTutor, PlayStore, AppStore, homecontent} from '../../Entryfile/imagepath.jsx'
 
 class JobsList extends Component
 {
@@ -70,7 +70,7 @@ class JobsList extends Component
           {/* Page Wrapper */}
           <div className="page-wrapper job-wrapper">
             {/* Page Content */}
-            <div className="content" style={{backgroundImage:'assets/img/home-content.svg', paddingTop:"100px"}}>
+            <div className="content" style={{backgroundImage:'../../assets/img/home-content.svg', paddingTop:"100px"}}>
                 <div className="row">
                     <div className="col-md-3">
                     </div>
@@ -84,7 +84,7 @@ class JobsList extends Component
                             <div className="card-body text-center" style={{paddingTop:'51px', paddingBottom:'51px'}}>
                                 <img src={IconStudent}/>
                                 <h4 style={{fontSize:'40px', color: '#0D6EFD',marginTop:'50px'}}>Students</h4>
-                                <label style={{border:'2px solid #0D6EFD', width:'19px', opacity: '1', height: '0px'}}></label>
+                                <label style={{border:'2px solid #0D6EFD', width:'19px', opacity: '1'}}></label>
                                 <p>Discover amazing teachers, post tuition jobs, take enriching courses</p>
                                 <a className="btn btn-info" style={{fontSize:'16px'}}>Find a Great Teacher</a>
                             </div>
@@ -117,10 +117,10 @@ class JobsList extends Component
                         </div>
                     </div>
                     <div style={{marginLeft:'1%'}}>
-                        <img src={PlayStore}/>
+                        <a href='https://play.google.com'><img src={PlayStore}/></a>
                     </div>
                     <div style={{marginLeft:'1%'}}>
-                        <img src={AppStore}/>
+                        <a href='https://www.apple.com'><img src={AppStore}/></a>
                     </div>
                 </div>
             </div>

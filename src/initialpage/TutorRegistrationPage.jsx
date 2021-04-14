@@ -82,9 +82,9 @@
                          </div>
                        </div>
                        <div className="" style={{marginTop:'81.12px',textAlign:'center'}}>
-                           <img src={Facebook}/>
-                           <img src={Instagram} style={{marginLeft:'5%'}}/>
-                           <img src={Twitter} style={{marginLeft:'5%'}}/>
+                        <a href='https://www.facebook.com'><img src={Facebook}/></a>
+                        <a href="https://www.instagram.com"><img src={Instagram} style={{marginLeft:'5%'}}/></a>
+                        <a href="https://www.twitter.com"><img src={Twitter} style={{marginLeft:'5%'}}/></a>
                        </div>
                  </div>
                  <div className="col-md-7">

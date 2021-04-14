@@ -16,7 +16,7 @@ class ForgotPassword extends Component {
                     <meta name="description" content="Login page"/>					
             </Helmet>
             <div className="row">
-              <div className="account-content col-md-5">
+              <div className="account-content col-md-5" style={{paddingTop:'100px'}}>
                 <div className="container">
                   {/* Account Logo */}
                   <div className="account-logo">
@@ -45,24 +45,15 @@ class ForgotPassword extends Component {
                       {/* /Account Form */}
                     </div>
                   </div><br/>
-                  <div className="row">
-                    <div className="col-push-md-4 col-md-4">
-
-                    </div>
-                    <div className="col-md-1">
-                      <img src={Facebook}/>
-                    </div>
-                    <div className="col-md-1">
-                      <img src={Instagram}/>
-                    </div>
-                    <div className="col-md-1">
-                      <img src={Twitter}/>
-                    </div>
+                  <div className="" style={{marginTop:'81.12px',textAlign:'center'}}>
+                    <a href='https://www.facebook.com'><img src={Facebook}/></a>
+                    <a href="https://www.instagram.com"><img src={Instagram} style={{marginLeft:'5%'}}/></a>
+                    <a href="https://www.twitter.com"><img src={Twitter} style={{marginLeft:'5%'}}/></a>
                   </div>
                 </div>
               </div>
               <div className="col-md-7">
-                <img src={SignBack} />
+                <img src={SignBack} style={{width:'100%'}} />
               </div>
             </div>
           
