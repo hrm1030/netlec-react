@@ -31,7 +31,7 @@
                                 <img src={Avatar_02} alt="" />
                                 <span className="change-img">Change Image</span>
                               </div>
-                              <small className="text-muted">Verified </small><span className='status online' style={{fontSize:'9px', color:'white'}}><i className="fa fa-check" /></span>
+                              <small className="text-muted">Verified </small><i className="fa fa-check-circle" style={{color:'#12D06C', fontSize:'12px'}} />
                               <h3 className="user-name m-t-10 mb-0" style={{fontSize:'15px'}}>Matthew Schneider</h3>
                               <small className="text-muted">M.Sc. (Physics), B.Ed </small><br/>
                               <small className="text-muted">Male</small><br/>
@@ -55,20 +55,20 @@
                             <div className="chat-profile-info">
                               <ul className="user-det-list" style={{fontSize:'12px'}}>
                                 <li>
-                                  <span>Languages:</span>
+                                  <span>Languages:</span>&nbsp;
                                   <span className="text-muted">English, Hindi</span>
                                 </li>
                                 <li>
-                                  <span>Status:</span>
+                                  <span>Status:</span>&nbsp;
                                   <span className="text-muted">285 Hrs./ 4Yrs Experience</span>
                                 </li>
                                 <li>
-                                  <span>Phone:</span>
-                                  <span className="text-muted">+971 50 1234 567</span> <span className='status online' style={{fontSize:'9px', color:'white'}}><i className="fa fa-check" /></span>
+                                  <span>Phone:</span>&nbsp;
+                                  <span className="text-muted">+971 50 1234 567</span> <i className="fa fa-check-circle" style={{color:'#12D06C', fontSize:'12px'}} />
                                 </li>
                                 <li>
-                                  <span>Email:</span>
-                                  <span className="text-muted">wiliam@domain.com</span> <span className='status online' style={{fontSize:'9px', color:'white'}}><i className="fa fa-check" /></span>
+                                  <span>Email:</span>&nbsp;
+                                  <span className="text-muted">wiliam@domain.com</span> <i className="fa fa-check-circle" style={{color:'#12D06C', fontSize:'12px'}} />
                                 </li>
                               </ul>
                             </div>
