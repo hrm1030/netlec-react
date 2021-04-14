@@ -91,7 +91,7 @@ class JobsList extends Component
                         </div>
                     </div>
                     <div className="col-md-2">
-                        <div className="card flex-fill" style={{backgroundColor: '#F92145'}}>
+                        <div className="card flex-fill" style={{backgroundColor: '#F92145', height:'100%'}}>
                             <div className="card-body text-center" style={{paddingTop:'51px', paddingBottom:'51px'}}>
                                 <img src={IconTutor}/>
                                 <h4 style={{fontSize:'40px', color: 'white',marginTop:'50px'}}>Tutors & Trainers</h4>
