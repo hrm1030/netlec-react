@@ -53,7 +53,7 @@
                         <div className="card">
                             <div className="card-header">
                                     <span className="card-title mb-0">My Profile</span>
-                                    <i className="fa fa-edit text-info" style={{fontSize:'21px', marginLeft:'90%'}}/>
+                                    <a href='/light/tutor/main/tutor-profileedit'><i className="fa fa-edit text-info" style={{fontSize:'21px', marginLeft:'90%'}}/></a>
                             </div>
                             <div className="card-body">
                                 <div className="row">
