@@ -18,7 +18,7 @@ Open [http://localhost:8001](http://localhost:8001) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-## TutorDashboard
+## Tutor Dashboard
 
 In the browser, enter the url `http://localhost:8001/light/tutor/main/tutordashboard`.
 
