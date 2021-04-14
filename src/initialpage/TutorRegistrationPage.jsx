@@ -35,7 +35,7 @@
              
              <div className="main-wrapper">
                <div className="row">
-                 <div className="col-md-5" style={{marginTop:'60px'}}>
+                 <div className="col-md-5" style={{marginTop:'50px'}}>
                        <div className="account-box">
                          <div className="account-wrapper">
                            <div className="account-back">
