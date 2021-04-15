@@ -83,10 +83,10 @@ class JobsList extends Component
                         <div className="card flex-fill">
                             <div className="card-body text-center" style={{paddingTop:'51px', paddingBottom:'51px'}}>
                                 <img src={IconStudent}/>
-                                <h4 style={{fontSize:'40px', color: '#0D6EFD',marginTop:'50px'}}>Students</h4>
+                                <h4 style={{fontSize:'35px', color: '#0D6EFD',marginTop:'50px'}}>Students</h4>
                                 <label style={{border:'2px solid #0D6EFD', width:'19px', opacity: '1'}}></label>
                                 <p>Discover amazing teachers, post tuition jobs, take enriching courses</p>
-                                <a className="btn btn-info" style={{fontSize:'16px'}}>Find a Great Teacher</a>
+                                <a className="btn btn-info" style={{fontSize:'14px'}}>Find a Great Teacher</a>
                             </div>
                         </div>
                     </div>
